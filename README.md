@@ -13,8 +13,12 @@ I built an image classifier using Support Vector Machines (SVM) to distinguish b
 Here’s a grid of test images with predicted labels:
 
 ## 📈 Results
-- Accuracy: 87%
+- Accuracy: 67.28%
 - Confusion Matrix: see `results/confusion_matrix.png`
+-  Classification Report:
+ Cat → Precision: 0.66, Recall: 0.71, F1: 0.69
+ Dog → Precision: 0.69, Recall: 0.63, F1: 0.66
+
 
 
 ![Prediction Grid](results/predictions_grid.png)
