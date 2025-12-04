@@ -12,6 +12,11 @@ I built an image classifier using Support Vector Machines (SVM) to distinguish b
 ## 📊 Sample Predictions
 Here’s a grid of test images with predicted labels:
 
+## 📈 Results
+- Accuracy: 87%
+- Confusion Matrix: see `results/confusion_matrix.png`
+
+
 ![Prediction Grid](results/predictions_grid.png)
 
 ## 📁 Repo Structure
@@ -20,7 +25,15 @@ models/      # saved SVM model (.pkl)
 results/     # evaluation outputs and prediction grid
 data/        # local dataset (ignored in GitHub)
 
+## 🌱 For Beginners
+This project is designed to be simple and reproducible.
+Even if you’re new to ML, you can run the code and see how SVMs classify cats vs dogs.
+
 
 ## 🚀 Run the model
 ```bash
 python src/train_svm.py
+
+
+
+
